@@ -1,23 +1,12 @@
-# Api-Project
+# React + Vite
 
-The goal of this project is to build a functional React component that fetches data from an APl and displays a list of items,also create a reusable list component to follow best practices in component reusability and separation of concerns. Creating a functional React application that fetches user data from a public API and displays it in a structured, maintainable, and user-friendly format. The solution emphasizes separation of concerns, performance awareness, and UX best practices, while also being flexible enough to scale with larger datasets
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Building scalable and reusable frontend components is a key skill in modern web development. This project was designed as a practical exercise to demonstrate mastery of React fundamentals, including:
+Currently, two official plugins are available:
 
-Stateful components using Hooks (useState, useEffect)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Asynchronous data fetching and lifecycle handling
+## Expanding the ESLint configuration
 
-Component reusability and clean architecture
-
-Basic client-side features like search filtering and pagination
-
-This project can serve as a foundational template for:
-
-Admin dashboards
-
-User directories
-
-Contact managers
-
-Data-driven web apps
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
